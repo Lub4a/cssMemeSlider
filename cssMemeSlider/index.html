@@ -4,40 +4,39 @@
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link rel="stylesheet" href="style.css">
-   <link rel="stylesheet" href="normalize.css">
    <title>cssMemeSlider</title>
 </head>
 <body>
    <h1 class="hidden">CSS Meme Slider</h1>
-   <div class="container">
-         <div  class="slider__wrap">
-            <input checked type="radio" name="slider__control" id="s1">
-            <input type="radio" name="slider__control" id="s2">
-            <input type="radio" name="slider__control" id="s3">
-            <input type="radio" name="slider__control" id="s4">
-             <div class="slider__wrap-content">
-               <div class="slider__content">
-                  <div class="slide slide-1"><img src="1.png" alt="Cвобода"></div>
-                  <div class="slide slide-2"><img src="2.png" alt="Не зупиняйся"></div>
-                  <div class="slide slide-3"><img src="3.png" alt="Посміхайся"></div>
-                  <div class="slide slide-4"><img src="4.png" alt="Веселка після дощу"></div>
+      <div  class="slider">
+         <input checked type="radio" name="radio" id="s1">
+         <input type="radio" name="radio" id="s2">
+         <input type="radio" name="radio" id="s3">
+         <input type="radio" name="radio" id="s4">
+         <div class="slides">
+            <div class="slide slide-1"><img src="1.png" alt="Cвобода"></div>
+            <div class="slide slide-2"><img src="2.png" alt="Не зупиняйся"></div>
+            <div class="slide slide-3"><img src="3.png" alt="Посміхайся"></div>
+            <div class="slide slide-4"><img src="4.png" alt="Веселка після дощу"></div>
+         </div>
+         </div>
+           <div class="conteiner">
+              <div class="slider-text">
+                 <div class="texts">
+                     <p class="text text -1">Я вільна...</p>
+                     <p class="text text -2">Йди на зустріч своїй мрії!</p>
+                     <p class="text text -3">Завжди Посміхайся</p>
+                     <p class="text text -4">Все так не буде... Буде краще</p>
+                  </div>
                </div>
-            </div>
-           <div class="slider__wrap-text">
-             <div class="slider__wrap-text">
-               <p class="slide slide-1">Я вільна...</p>
-               <p class="slide slide-2">Йди на зустріч своїй мрії!</p>
-               <p class="slide slide-3">Завжди Посміхайся</p>
-               <p class="slide slide-4">Все так не буде... Буде краще</p>
-             </div>
-           </div>
-            <div class="slider__control">
-               <label class="slider__control-1" for="r1"></label>
-               <label class="slider__control-2" for="r2"></label>
-               <label class="slider__control-3" for="r3"></label>
-               <label class="slider__control-4" for="r4"></label>
+            <div class="control">
+               <label for="s1"><div class="slider__control"></div></label>
+               <label for="s2"> <div class="slider__control"></div></label>
+               <label for="s3"><div class="slider__control"></div></label>
+               <label for="s4"> <div class="slider__control"></div></label>
             </div>
          </div>
-   </div>
+      </div>
+   <!-- <script src="index.js"></script> -->
 </body>
 </html>
